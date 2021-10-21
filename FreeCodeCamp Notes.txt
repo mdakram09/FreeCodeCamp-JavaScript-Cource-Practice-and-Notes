@@ -1,0 +1,26 @@
+***In JavaScript, String values are immutable, which means that they cannot be altered once created.
+
+***=== is called strictly equal operator
+
+***!= is called inequality operator
+
+***!== is called strictly inequality operator
+
+***friends:["Rusty","Moofy","Woof"] //this is how you can use an array inside an object
+
+***YOU CAN ACCESS THE OBJECT ELEMENTS BY THIS METHOD BELOW
+
+// Setup
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+
+var entreeValue = testObj["an entree"];   // Change this line
+var drinkValue = testObj["the drink"];    // Change this line
+
+
+***Object.freeze(object_name) //this freezes an object and the value of any property of this object cannot be changed in any how
