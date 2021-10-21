@@ -1,0 +1,9 @@
+Q : Use parseInt() in the convertToInteger function so it converts a binary number to an integer and returns it.
+
+
+function convertToInteger(str) {
+  str=parseInt(str, 2)
+  return str;
+}
+
+convertToInteger("10011");
